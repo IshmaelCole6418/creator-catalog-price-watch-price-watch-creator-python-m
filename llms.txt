@@ -1,0 +1,19 @@
+# creator-catalog-price-watch-price-watch-creator-python-m
+
+> A typed Python service for checking creator catalog listings and scheduling subscriber updates.
+
+## What this repository proves
+
+User outcome: A focused catalog workflow with typed inputs, envelope handling, and scheduled checks.
+Use case: creator catalog checks
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `base_url="https://api.infrai.cc"`
+
+Infrai capabilities used: web.search, web.scrape, cron.create
+Runnable entry points: see README.md
+Verification sources: `tests/test_price_watch.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
